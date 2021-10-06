@@ -1,0 +1,35 @@
+.area-postagens {
+  width: 660px;
+  float: left;
+}
+
+.area-principal {
+  /* 920px é um tamanho padrão MUITO UTILIZADO! */
+  width: 920px;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+.area-postagens {
+  width: 660px;
+  float: left;
+}
+
+.postagem {
+  padding: 20px;
+  margin-bottom: 20px;
+  background: white;
+}
+.cardItem {
+  border: 1px solid black;
+  background: floralwhite;
+  border-radius: 10px;
+  font-size: 20px;
+  margin: 10px;
+}
+
+.textItem {
+  margin-left: 10px;
+  display: flex;
+  padding: 10px;
+}
