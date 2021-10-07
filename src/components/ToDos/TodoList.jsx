@@ -20,7 +20,7 @@ export function TodosList() {
 
           <ul>
             {todos.map((todos) => (
-              <TodoItem todos={todos} />
+              <TodoItem key={todos.id} todos={todos} />
             ))}
           </ul>
         </div>
