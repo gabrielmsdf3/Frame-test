@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { TodoItem } from "./TodoItem";
 import React from "react";
-import "../../assets/css/info.css";
+import "../../styles/info.css";
 
 export function TodosList() {
   const [todos, setTodos] = useState([]);
@@ -13,9 +13,9 @@ export function TodosList() {
   }, []);
 
   return (
-    <div className="area-principal">
-      <div className="area-postagens">
-        <div className="postagem">
+    <div className="containerMain">
+      <div className="post-area">
+        <div className="post">
           <h2>Lista To-dos</h2>
 
           <ul>

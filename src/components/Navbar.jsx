@@ -1,6 +1,6 @@
 import * as React from "react";
 import Box from "@mui/material/Box";
-import "../assets/css/navbar.css";
+import "../styles/navbar.css";
 import Grid from "@mui/material/Grid";
 import { NavLink } from "react-router-dom";
 
@@ -9,12 +9,12 @@ export default function FullWidthGrid() {
     <Box sx={{ flexGrow: 1 }}>
       <Grid container spacing={2}>
         <Grid item xs={6} md={12}>
-          <div className="area-cabecalho">
-            <div className="area-logo">
-              <h1 className="branco">Teste Framework</h1>
+          <div className="navbarStyle">
+            <div>
+              <h1 style={{ color: "#fff" }}>Teste Framework</h1>
             </div>
 
-            <div className="area-menu">
+            <div className="menuStyle">
               <NavLink
                 className="linkStyle"
                 activeStyle={{

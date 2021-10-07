@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { AlbuItem } from "./AlbumItem";
 import React from "react";
-import "../../assets/css/info.css";
+import "../../styles/info.css";
 
 export function AlbumList() {
   const [album, setAlbum] = useState([]);
@@ -13,9 +13,9 @@ export function AlbumList() {
   }, []);
 
   return (
-    <div className="area-principal">
-      <div className="area-postagens">
-        <div className="postagem">
+    <div className="containerMain">
+      <div className="post-area">
+        <div className="post">
           <h2>Lista Albums</h2>
 
           <ul>

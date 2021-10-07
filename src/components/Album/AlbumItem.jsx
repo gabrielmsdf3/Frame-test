@@ -1,5 +1,5 @@
 import React from "react";
-import "../../assets/css/info.css";
+import "../../styles/info.css";
 
 export function AlbuItem(props) {
   return (

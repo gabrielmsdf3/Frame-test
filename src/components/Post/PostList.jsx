@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { PostItem } from "./PostItem";
 import React from "react";
-import "../../assets/css/info.css";
+import "../../styles/info.css";
 
 export function PostsList() {
   const [posts, setPosts] = useState([]);
@@ -13,9 +13,9 @@ export function PostsList() {
   }, []);
 
   return (
-    <div className="area-principal">
-      <div className="area-postagens">
-        <div className="postagem">
+    <div className="containerMain">
+      <div className="post-area">
+        <div className="post">
           <h2>Lista Posts</h2>
 
           <ul>
