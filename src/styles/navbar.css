@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 1em;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+.navbarStyle {
+  background-color: #050233;
+  padding: 15px;
+  text-align: center;
+}
+
+.menuStyle {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 0px 200px;
+  font-size: 1.4em;
+}
+
+.linkStyle {
+  color: #7900df;
+}
+
+h1 {
+  color: #4e4e4e;
+  font-size: 2.5em;
+}
+
+h2 {
+  color: #7900df;
+}
+
+h3 {
+  color: #565656;
+  background: #ccc;
+  padding: 5px;
+}
